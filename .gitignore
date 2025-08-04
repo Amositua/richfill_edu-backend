@@ -9,7 +9,10 @@ logs/
 .env
 *.env
 .env.local
-*.json
+# Ignore only config and secret JSON files, not package.json
+config/*.json
+secrets/*.json
+
 
 # OS-specific
 .DS_Store
